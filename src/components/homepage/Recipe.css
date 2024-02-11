@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Labrada&family=Nunito:wght@300&family=Poppins:wght@100;300&family=Zeyada&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+}
+.AppName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+}
+.SearchBox {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 50%;
+  background-color: white;
+}
+.SearchIcon {
+  width: 32px;
+  height: 32px;
+}
+.RecipeImage {
+  width: 36px;
+  height: 36px;
+  margin: 15px;
+}
+.SearchInput {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none !important;
+  outline: none !important;
+  margin-left: 15px;
+  margin-right: auto;
+
+  border-radius: 6px;
+
+  width: 100%;
+}
+
+.SearchInput .ant-input-suffix .ant-input-search-icon {
+  display: none !important;
+}
+button.ant-btn.css-dev-only-do-not-override-nnuwmp.ant-btn-default.ant-btn-icon-only.ant-input-search-button {
+  border-left: none;
+  height: 50px;
+}
+.SearchInput .ant-input {
+  height: 40px !important;
+}
+.RecipeList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.CenterMessage {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 18px;
+  color: #333;
+}
+.Tab {
+  margin-right: 40px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.Tab:hover {
+  background-color: black;
+  color: white;
+}
+.TabContainer {
+  white-space: nowrap;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.ButtonContainer {
+  cursor: pointer;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.StyledButton {
+  background-color: #eb3300;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.RecipeContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  transition: transform 0.5s;
+  box-shadow: 0 3px 10px 0 #aaa;
+}
+.RecipeContainer:hover {
+  transform: scale(1.1);
+}
+.CoverImage {
+  object-fit: cover;
+  height: 200px;
+}
+.RecipeName {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin: 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.DishType {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin: 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.SeeMore {
+  color: #eb3300;
+  font-size: 18px;
+  text-align: center;
+  border: solid 1px #eb3300;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.favorite {
+  color: #eb3300;
+  font-size: 18px;
+  text-align: center;
+  border: solid 1px #eb3300;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.close {
+  color: #eb3300;
+
+  text-align: center;
+  border: solid 1px #eb3300;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.IngredientsText {
+  text-align: center;
+  font-size: 18px;
+  border-radius: 3px;
+  color: green;
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: solid 1px green;
+  margin-bottom: 12px;
+}
+.SeeNewTab {
+  color: green;
+  text-align: center;
+  border-radius: 3px;
+  border: solid 1px green;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.logout:hover {
+  cursor: pointer;
+}
+.total {
+  display: inline-block;
+  margin-right: 40px;
+  cursor: pointer;
+  padding: 10px;
+}
+.ActiveTab {
+  background-color: black;
+  color: white;
+}
+.favorite-container {
+  padding: 30px;
+  padding-left: 70px;
+  padding-top: 40px;
+}
+.favoriteHeading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: black;
+  font-weight: 600;
+}
+.button {
+  width: 150% !important;
+  height: 180% !important;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.button:hover {
+  border: 1px solid black !important;
+  background-color: black;
+  color: white !important;
+}
+@media only screen and (max-width:600px){
+  .RecipeList{
+    flex-direction: column;
+  }
+}

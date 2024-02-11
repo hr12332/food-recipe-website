@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main_container {
+  background: linear-gradient(rgba(8, 8, 8, 0.3), rgba(8, 8, 8, 0.3)),
+    url("../mainpage/images/homepage_bg_image.jpg");
+  background-repeat: no-repeat;
+  min-height: 87.3vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 90px;
+  flex-direction: column;
+  font-weight: bold;
+}
+.our_recipes {
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: black;
+  transition: 0.5s;
+}
+.our_recipes:hover {
+  cursor: pointer;
+  background: transparent;
+}
